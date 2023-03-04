@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px;
+}
+.items-image {
+  height: 60px;
+  width: 60px;
+  margin-top: 8px;
+}
+.star-con {
+  display: flex;
+  flex-direction: row;
+}
+.forks-con {
+  display: flex;
+  flex-direction: row;
+}
+.issues-con {
+  display: flex;
+  flex-direction: row;
+}
+.star-image {
+  height: 13px;
+  width: 13px;
+  margin-top: 5px;
+}
+.forks-image {
+  height: 13px;
+  width: 13px;
+  margin-top: 5px;
+}
+.issues-image {
+  height: 13px;
+  width: 13px;
+  margin-top: 5px;
+  margin-right: 7px;
+}
+.items-para {
+  margin-top: 0px;
+  margin-left: 10px;
+  color: #1e293b;
+}
+
+.name-head {
+  color: #e73959;
+  font-size: 17px;
+}

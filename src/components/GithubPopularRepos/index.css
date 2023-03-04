@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.github-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.filter-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+.main-heading {
+  color: #0f172a;
+  font-family: Lobster;
+  font-weight: bold;
+}
+.repo-items-con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.failure-image {
+  height: 300px;
+  width: 300px;
+}
+.failure {
+  text-align: center;
+}
